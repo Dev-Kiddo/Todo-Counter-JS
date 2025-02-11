@@ -21,7 +21,7 @@
 
 <h3>🌐 Live Demo</h3>
 <h4>🔗 Try the live version of the app here:</h4>
-<h4><a href="#">To-Do Counter App ✅✨</a></h4>
+<h4><a href="https://dev-kiddo.github.io/Todo-Counter-JS/">To-Do Counter App ✅✨</a></h4>
 
 ---
 
@@ -38,16 +38,6 @@
 
 <h3>🛠️ How It Works</h3>
 <p>The app allows you to manage your tasks by adding and removing them from the list. The task counter is updated in real-time, showing the total number of tasks and how many are left to complete. Built using pure HTML, CSS, and JavaScript, this app provides a simple yet effective task management solution.</p>
-
----
-
-<h3>📢 Feedback & Contributions</h3>
-<p>Feel free to open an issue or submit a pull request if you find a bug or want to improve this project. Your contributions are always welcome!</p>
-
----
-
-<h3>📄 License</h3>
-<p>This project is licensed under the <strong>MIT License</strong>. You are free to use, modify, and distribute it as long as proper credit is given.</p>
 
 ---
 
