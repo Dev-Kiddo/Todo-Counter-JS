@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo - Counter | Prasanth</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Todo App</h1>
+    </header>
+
+    <!--   chumma(e) {
+    e.preventDefault();
+
+    console.log(e.target);
+    console.log("this", this);
+    console.log("body", this.bodyEl);
+  }
+
+  showTaskPopup() {
+    this.popAddTaskBtn.addEventListener("click", this.chumma.bind(this));
+  } -->
+
+    <main>
+      <section class="add-task-container">
+        <h4 class="task-form-title">Tasks</h4>
+        <button class="btn add-task--btn">&#x0002B; Add Task</button>
+      </section>
+
+      <section class="task-list-container">
+        <!-- <div class="task-list task-list--1">
+          <div class="task-list-detail-1 task-wrapper">
+            <input class="task-checkbox" type="checkbox" />
+            <h4 class="task-title">Practice Javascript</h4>
+          </div>
+
+          <div class="task-list-detail-2 task-wrapper">
+            <h4 class="task-timer">2 Hours</h4>
+            <div class="btn run-timer">00:00</div>
+          </div>
+
+          <div class="task-Desctiption">
+            <p>Hi iam desctiption</p>
+          </div>
+        </div> -->
+
+        <p class="no-data-label">No tasks to display!</p>
+      </section>
+
+      <section class="task-form-container hidden">
+        <div class="task-form-nav">
+          <h4 class="task-form-title">Task Details</h4>
+          <!-- <button class="btn task-form-close-btn">&#10005;</button> -->
+          <p class="task-valid-error hidden"></p>
+        </div>
+
+        <form>
+          <div class="task-form-elements">
+            <fieldset>
+              <label for="td-task-name">Todo Title</label>
+              <br />
+              <input type="text" id="td-task-name" name="td-task-name" value="" placeholder="Task name" />
+            </fieldset>
+
+            <fieldset>
+              <label for="td-task-hours">Todo Duration</label>
+              <br />
+              <select id="td-task-hours" name="td-task-hours">
+                <option value="">Select Duration</option>
+                <option value="15">15 Minutes</option>
+                <option value="30">30 Minutes</option>
+                <option value="60">1 Hour</option>
+                <option value="120">2 Hour</option>
+                <option value="180">3 Hour</option>
+              </select>
+            </fieldset>
+
+            <fieldset class="fieldset-desc-container">
+              <label for="td-task-description">Todo Description</label>
+              <br />
+              <textarea rows="3" cols="" id="td-task-description" placeholder="Description"></textarea>
+            </fieldset>
+          </div>
+
+          <div class="task-form-btns">
+            <button class="btn btn-form-cancel">Cancel</button>
+            <input class="btn btn-form-submit" type="submit" name="submit" value="Add Task" />
+          </div>
+        </form>
+      </section>
+
+      <section class="form-overlay hidden"></section>
+    </main>
+  </body>
+</html>
